@@ -1,0 +1,2140 @@
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (164.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (336.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20110609142558)
+  [1m[35mSQL (248.7ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (58.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110609142558')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (1.8ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/my_little_lab" for 127.0.0.1 at 2011-06-09 11:32:52 -0300
+
+ActionController::RoutingError (No route matches "/my_little_lab"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-06-09 11:32:57 -0300
+  Processing by Rails::InfoController#properties as 
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Rendered inline template (0.4ms)
+Completed 200 OK in 55ms (Views: 1.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-06-09 11:33:55 -0300
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:35:05 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users%E2%80%8C/" for 127.0.0.1 at 2011-06-09 11:35:09 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/users%E2%80%8C/show" for 127.0.0.1 at 2011-06-09 11:35:19 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C/show"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:35:34 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/users%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:36:06 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/user%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:36:47 -0300
+
+ActionController::RoutingError (No route matches "/user%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/user%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:36:55 -0300
+
+ActionController::RoutingError (No route matches "/user%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.7ms)
+
+
+Started GET "/users%E2%80%8C/index" for 127.0.0.1 at 2011-06-09 11:36:57 -0300
+
+ActionController::RoutingError (No route matches "/users%E2%80%8C/index"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-06-09 11:37:01 -0300
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Rendered inline template (0.3ms)
+Completed 200 OK in 33ms (Views: 1.1ms | ActiveRecord: 0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/users" for 127.0.0.1 at 2011-06-09 11:40:26 -0300
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 78ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 11:44:22 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (8.7ms)
+Rendered users/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 44ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/landing" for 127.0.0.1 at 2011-06-09 13:26:42 -0300
+
+ActionController::RoutingError (No route matches "/landing"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/landing_page" for 127.0.0.1 at 2011-06-09 13:26:45 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for LandingPageController):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/landing/view" for 127.0.0.1 at 2011-06-09 13:27:22 -0300
+
+AbstractController::ActionNotFound (The action 'view' could not be found for LandingController):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:27:27 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:28:10 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (18.6ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (Missing partial users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render :partial => "users/new" ,:locals => { :user => @user } %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_80820620__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:28:37 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_84953780__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84996650__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:28:38 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_83512450__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83553200__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.6ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.4ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:30:53 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.3ms)
+Rendered landing/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_85157870_214095797'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85181650__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:31:41 -0300
+  Processing by LandingController#show as HTML
+ERROR: compiling _app_views_landing_show_html_erb___298805841_83772600__798552733 RAISED /home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:1: syntax error, unexpected '<', expecting keyword_end
+... ActionView::OutputBuffer.new;<%= render 'users/form' ;@outp...
+...                               ^
+/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...tput_buffer = _old_virtual_path, _old_output_buffer
+...                               ^
+/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:4: syntax error, unexpected '\n', expecting '='
+Function body:           def _app_views_landing_show_html_erb___298805841_83772600__798552733(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "landing/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;<%= render 'users/form' ;@output_buffer.safe_concat(' %>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:255:in `module_eval'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:255:in `compile'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:134:in `block in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:54:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:127:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:26:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:93:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/base.rb:150:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:436:in `_run__592846206__process_action__976719318__callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/base.rb:119:in `process'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:41:in `process'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal.rb:138:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal.rb:178:in `block in action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:32:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:12:in `cache'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:31:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/rack/logger.rb:13:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/application.rb:168:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/application.rb:77:in `method_missing'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:1: syntax error, unexpected '<', expecting keyword_end
+... ActionView::OutputBuffer.new;<%= render 'users/form' ;@outp...
+...                               ^
+/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...tput_buffer = _old_virtual_path, _old_output_buffer
+...                               ^
+/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:4: syntax error, unexpected '\n', expecting '='):
+    1: <%<%= render 'users/form' %> %>
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:32:28 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.9ms)
+Rendered landing/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_85470230_408633658'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85486500__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:32:35 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_84191180_408633658'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84215400__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:32:36 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (1.0ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_84745070_408633658'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85659610__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:33:09 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_84415960__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84494750__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:33:09 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_80126320__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_80151580__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:33:10 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_84757270__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84804590__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:33:10 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_form.html.erb (0.8ms)
+Rendered landing/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@user) do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__995246831_81276220__746574779'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_81319520__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:39:22 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial user/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'user/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85050040__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:39:24 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial user/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'user/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83712040__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/landing/show" for 127.0.0.1 at 2011-06-09 13:39:49 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial user/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'user/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85096720__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:40:29 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial user/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'user/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83751030__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:41:12 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'user/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85434100__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2011-06-09 13:41:22 -0300
+
+ActionController::RoutingError (No route matches "/user/new"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2011-06-09 13:42:49 -0300
+
+ActionController::RoutingError (No route matches "/user/new"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2011-06-09 13:43:04 -0300
+
+ActionController::RoutingError (No route matches "/user/new"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:43:07 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.1ms)
+Rendered users/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 20ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:43:17 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84192350__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:43:51 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_77781480__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:43:52 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84628310__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:46:33 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_81025020__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:46:38 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.0ms)
+Rendered users/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 21ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:46:52 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (5.8ms)
+Rendered users/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 21ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:47:00 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  describe `users`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues@gmail.com', '2011-06-09 16:47:00', '2011-06-09 16:47:00')[0m
+  [1m[35mSQL (58.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 90ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-06-09 13:47:00 -0300
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <b>Email:</b>
+    5:   <%= @user.email %>
+    6: </p>
+    7: 
+    8: 
+  app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__227447404_83592920__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:48:54 -0300
+  Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/home/isabel/Projetos/Ruby/my_little_lab/app/models/user.rb:5: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates_presence_of :email, message :blank
+                                         ^):
+  app/controllers/users_controller.rb:4:in `new'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:49:04 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (5.8ms)
+Rendered users/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 21ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:49:06 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Rendered users/_form.html.erb (4.7ms)
+Rendered users/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 40ms (Views: 14.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:49:25 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues2@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues2@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  describe `users`
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:49:25', '2011-06-09 16:49:25')[0m
+  [1m[35mSQL (43.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 62ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2011-06-09 13:49:25 -0300
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <b>Email:</b>
+    5:   <%= @user.email %>
+    6: </p>
+    7: 
+    8: 
+  app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__227447404_85323060__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:50:03 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues2@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues2@gmail.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:50:03', '2011-06-09 16:50:03')
+  [1m[36mSQL (59.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 78ms
+
+
+Started GET "/users/3" for 127.0.0.1 at 2011-06-09 13:50:03 -0300
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Rendered users/show.html.erb within layouts/application (23.0ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <b>Email:</b>
+    5:   <%= @user.email %>
+    6: </p>
+    7: 
+    8: 
+  app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__227447404_77265990__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:50:20 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues2@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues2@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:50:20', '2011-06-09 16:50:20')[0m
+  [1m[35mSQL (79.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 98ms
+
+
+Started GET "/users/4" for 127.0.0.1 at 2011-06-09 13:50:20 -0300
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <b>Email:</b>
+    5:   <%= @user.email %>
+    6: </p>
+    7: 
+    8: 
+  app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__227447404_81443200__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.6ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2011-06-09 13:52:15 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:52:21 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (5.9ms)
+Rendered users/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 22ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:53:03 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:53:03', '2011-06-09 16:53:03')
+  [1m[36mSQL (79.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 98ms
+
+
+Started GET "/users/5" for 127.0.0.1 at 2011-06-09 13:53:03 -0300
+
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:54:43 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (5.8ms)
+Rendered users/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 21ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:54:52 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:54:52', '2011-06-09 16:54:52')[0m
+  [1m[35mSQL (74.4ms)[0m  COMMIT
+Redirected to 
+Completed 500 Internal Server Error in 93ms
+
+NoMethodError (undefined method `new_url' for #<UsersController:0xa28c148>):
+  app/controllers/users_controller.rb:13:in `block (2 levels) in create'
+  app/controllers/users_controller.rb:11:in `create'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:55:30 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (27.2ms)
+Rendered users/new.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 43ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:55:33 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES (NULL, '2011-06-09 16:55:33', '2011-06-09 16:55:33')
+  [1m[36mSQL (71.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new?notice=User+was+successfully+created.
+Completed 302 Found in 89ms
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:55:33 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (5.8ms)
+Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 13:56:52 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.1ms)
+Rendered users/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 22ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:56:56 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues@gmail.com', '2011-06-09 16:56:56', '2011-06-09 16:56:56')
+  [1m[36mSQL (47.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new?notice=User+was+successfully+created.
+Completed 302 Found in 63ms
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:56:56 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (6.3ms)
+Rendered users/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 21ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:57:17 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues@gmail.com', '2011-06-09 16:57:17', '2011-06-09 16:57:17')
+  [1m[36mSQL (66.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new?notice=User+was+successfully+created.
+Completed 302 Found in 82ms
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:57:17 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (6.3ms)
+Rendered users/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 44ms (Views: 13.5ms | ActiveRecord: 47.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:57:25 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues2@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues2@gmail.com', '2011-06-09 16:57:25', '2011-06-09 16:57:25')
+  [1m[36mSQL (43.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new?notice=User+was+successfully+created.
+Completed 302 Found in 59ms
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:57:25 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (29.4ms)
+Rendered users/new.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 44ms (Views: 36.7ms | ActiveRecord: 67.6ms)
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:58:44 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (6.4ms)
+Rendered users/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 20ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:58:46 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (6.2ms)
+Rendered users/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 43ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:59:45 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (6.1ms)
+Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:59:49 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues2@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues2@gmail.com', '2011-06-09 16:59:49', '2011-06-09 16:59:49')
+  [1m[36mSQL (89.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new?notice=User+was+successfully+created.
+Completed 302 Found in 106ms
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 13:59:49 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (5.9ms)
+Rendered users/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?notice=User+was+successfully+created." for 127.0.0.1 at 2011-06-09 14:02:20 -0300
+  Processing by UsersController#new as HTML
+  Parameters: {"notice"=>"User was successfully created."}
+Rendered users/_form.html.erb (28.1ms)
+Rendered users/new.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 43ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:02:22 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (5.9ms)
+Rendered users/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 20ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:02:25 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues@gmail.com', '2011-06-09 17:02:25', '2011-06-09 17:02:25')
+  [1m[36mSQL (81.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 120ms
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:02:25 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.0ms)
+Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 22ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:02:49 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.4ms)
+Rendered users/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:02:50 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.3ms)
+Rendered users/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 21ms (Views: 13.3ms | ActiveRecord: 82.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:02:51 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>""}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Rendered users/_form.html.erb (4.3ms)
+Rendered users/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 48ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:03:02 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.0ms)
+Rendered users/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 23ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:03:05 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Rendered users/_form.html.erb (4.5ms)
+Rendered users/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 51ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:03:13 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Rendered users/_form.html.erb (4.1ms)
+Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 28ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:03:31 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85273560__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:06:12 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => :users, :action => :new %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83876890__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:07:27 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => :users, :action => :new %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85578430__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:09:00 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => :users, :action => :new, :locals => { :user => @user } %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84306730__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:09:17 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => :users, :action => :new, :locals => { :user => @user } %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85645240__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:11:40 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:12:55 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => :users, :action => :new %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85592450__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:14:25 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa0039f8>:0xa00193c>):
+    1: <%= redirect_to :controller => :users, :action => :new %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83881340__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:19:42 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa278cb0>:0xa277acc>):
+    1: <%= redirect_to :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85160280__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:20:34 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x9a27264>:0x9a133f4>):
+    1: <%= redirect_to :controller => '/users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_80747760__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:20:43 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.1ms)
+Rendered users/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:20:46 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x93565e8>:0x948ff90>):
+    1: <%= redirect_to :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_81225360__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:23:09 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (4.7ms)
+Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (No route matches {:controller=>"users"}):
+    1: <%= flash[:notice] %>
+    2: <%= form_for(@user) do |f| %>
+    3:   <% if @user.errors.any? %>
+    4:     <div id="error_explanation">
+    5:       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/users/_form.html.erb:2:in `_app_views_users__form_html_erb__995246831_83586720_408633658'
+  app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___524153174_83628090__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.8ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:23:46 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.0ms)
+Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 21ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:23:49 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa2f0bc0>:0xa2e5d60>):
+    1: <%= redirect_to :controller => "users", :action => "new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85403120__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:25:31 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => "users", :action => "new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83489360__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (26.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:40 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa1c73fc>:0xa1c4fe4>):
+    1: <%= redirect_to "users/new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84807700__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:52 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (30.5ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x956fd0c>:0x9551a14>):
+    1: <%= redirect_to "/users/new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_78245330__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:53 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa081b64>:0xa0803e0>):
+    1: <%= redirect_to "/users/new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84146540__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:53 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa2c58bc>:0xa2c3d28>):
+    1: <%= redirect_to "/users/new" %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85327920__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:28:15 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x9f10758>:0x9f0f718>):
+    1: <%= redirect_to users_path %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83391960__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:22 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Missing partial users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84627130__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:22 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (Missing partial users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <%= render 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_77798600__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:12 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa092edc>:0xa081a10>):
+    1: <%= redirect_to 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84149430__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:13 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa2d5438>:0xa2d3688>):
+    1: <%= redirect_to 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85365120__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:38 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x9f415ec>:0x9f400ac>):
+    1: <%= redirect_to users_path %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83490840__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:38 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa1954d8>:0xa19418c>):
+    1: <%= redirect_to users_path %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84697270__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:39 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x93646e8>:0x935b570>):
+    1: <%= redirect_to users_path %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_77245570__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:39 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0xa039b0c>:0xa037f00>):
+    1: <%= redirect_to users_path %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83984190__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:33:49 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.2ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_85177990__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85183800__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:34:14 -0300
+  Processing by LandingController#show as HTML
+ERROR: compiling _app_views_landing_show_html_erb___298805841_81156530__798552733 RAISED /home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+...ontroller => 'users', :action 'new' );@output_buffer.safe_co...
+...                               ^
+Function body:           def _app_views_landing_show_html_erb___298805841_81156530__798552733(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "landing/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.append= ( render :controller => 'users', :action 'new' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:255:in `module_eval'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:255:in `compile'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:134:in `block in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:54:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/template.rb:127:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_view/render/rendering.rb:26:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:93:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/base.rb:150:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:436:in `_run__592846206__process_action__976719318__callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/notifications.rb:52:in `instrument'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/base.rb:119:in `process'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/abstract_controller/rendering.rb:41:in `process'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal.rb:138:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_controller/metal.rb:178:in `block in action'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:32:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:12:in `cache'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/query_cache.rb:31:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/rack/logger.rb:13:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/application.rb:168:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/application.rb:77:in `method_missing'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.8/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/isabel/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/home/isabel/Projetos/Ruby/my_little_lab/app/views/landing/show.html.erb:1: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+...ontroller => 'users', :action 'new' );@output_buffer.safe_co...
+...                               ^):
+    1: <%= render :controller => 'users', :action 'new' %>
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.7ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:34:30 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84693880__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:35:50 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_78180710__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:35:52 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84252280__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:36:51 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85520350__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:37:07 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (6.1ms)
+Rendered users/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 23ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:37:59 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85157870__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:39:03 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :controller => 'users', :action => 'new', :locals => {:users => @users } %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_81259860__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.5ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:40:33 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84717810__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:40:57 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render :action => 'users/new.html.erb' %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_78359960__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:44:36 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.3ms)
+Rendered landing/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_84225330__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84252100__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:45:23 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.3ms)
+Rendered landing/show.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_85426720__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85459190__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:45:25 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.2ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_83580850__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83595930__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:48:41 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.2ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_84725390__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84743180__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:48:42 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.2ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_77833140__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_78098440__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:48:42 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.4ms)
+Rendered landing/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_84077600__437672918'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84091490__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:49:35 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    1: <%= render(:action=>'/users/new', :object=> @users) %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_85321650__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:51:38 -0300
+  Processing by LandingController#show as HTML
+Rendered landing/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `redirect_to' for #<#<Class:0x9f6b2c0>:0x9f605a0>):
+    1: <%= redirect_to :action=>'/users/new', :object=> @users %>
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_83557290__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:55:12 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (1.2ms)
+Rendered landing/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial landing/form with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+    1: <h1>New user</h1>
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', users_path %>
+  app/views/users/_new.html.erb:3:in `_app_views_users__new_html_erb__715275533_84693730_272125157'
+  app/views/landing/show.html.erb:1:in `_app_views_landing_show_html_erb___298805841_84715200__798552733'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:55:55 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.3ms)
+Rendered landing/show.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 44ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:56:47 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.1ms)
+Rendered landing/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 21ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:56:51 -0300
+  Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 12ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:57:46 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_new.html.erb (6.2ms)
+Completed 200 OK in 16ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:57:48 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (28.3ms)
+Rendered landing/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 44ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:57:52 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 19ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+  app/controllers/users_controller.rb:18:in `block (2 levels) in create'
+  app/controllers/users_controller.rb:13:in `create'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:58:21 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.4ms)
+Rendered landing/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 44ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:58:22 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 20ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+  app/controllers/users_controller.rb:18:in `block (2 levels) in create'
+  app/controllers/users_controller.rb:13:in `create'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2011-06-09 14:58:28 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:58:31 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_new.html.erb (6.1ms)
+Completed 200 OK in 17ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:58:52 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.5ms)
+Rendered landing/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-09 14:58:57 -0300
+  Processing by UsersController#new as HTML
+Rendered users/_new.html.erb (6.2ms)
+Completed 200 OK in 17ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:58:58 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>""}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY '') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 20ms
+
+ActionView::MissingTemplate (Missing template users/new with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/isabel/Projetos/Ruby/my_little_lab/app/views"):
+  app/controllers/users_controller.rb:18:in `block (2 levels) in create'
+  app/controllers/users_controller.rb:13:in `create'
+
+Rendered /home/isabel/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:59:40 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.3ms)
+Rendered landing/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 22ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 14:59:42 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Rendered users/_new.html.erb (4.5ms)
+Rendered users/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 28ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:00:23 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.5ms)
+Rendered landing/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 15:00:27 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Rendered users/_new.html.erb (4.8ms)
+Rendered users/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 51ms (Views: 11.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:01:03 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.2ms)
+Rendered landing/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 22ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 15:01:08 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues3@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues3@gmail.com') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues3@gmail.com', '2011-06-09 18:01:08', '2011-06-09 18:01:08')
+  [1m[36mSQL (40.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 58ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:01:08 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.6ms)
+Rendered landing/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:01:39 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (7.4ms)
+Rendered landing/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 45ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 15:01:44 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues4@gmail.com"}, "commit"=>"Create User"}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues4@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  describe `users`
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO `users` (`email`, `created_at`, `updated_at`) VALUES ('belrodrigues4@gmail.com', '2011-06-09 18:01:44', '2011-06-09 18:01:44')[0m
+  [1m[35mSQL (61.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 80ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:01:44 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.5ms)
+Rendered landing/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 45ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 15:01:48 -0300
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9lntXqaf91h4anS9lrqRtnyhSQ9x0zykFh1fJZjkoHc=", "user"=>{"email"=>"belrodrigues@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'belrodrigues@gmail.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:01:48 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (28.9ms)
+Rendered landing/show.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 44ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:02:24 -0300
+  Processing by LandingController#show as HTML
+Rendered users/_new.html.erb (6.4ms)
+Rendered landing/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 22ms (Views: 13.1ms | ActiveRecord: 0.0ms)
