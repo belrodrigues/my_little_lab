@@ -14,6 +14,10 @@ group :test, :development do
   gem "rspec-expectations"
   gem "rspec-mocks"
   gem "rspec-rails", "~> 2.4"
+  gem "cucumber"
+  gem "cucumber-rails"
+  gem "capybara"
+  gem "database_cleaner"
 end
 
 # Use unicorn as the web server
