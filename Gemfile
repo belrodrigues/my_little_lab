@@ -7,6 +7,15 @@ gem 'rails', '3.0.8'
 
 gem 'mysql2', '0.2.7'
 
+
+group :test, :development do
+  gem "rspec"
+  gem "rspec-core"
+  gem "rspec-expectations"
+  gem "rspec-mocks"
+  gem "rspec-rails", "~> 2.4"
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
