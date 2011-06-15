@@ -9,15 +9,16 @@ gem 'mysql2', '0.2.7'
 
 
 group :test, :development do
-  gem "rspec"
-  gem "rspec-core"
-  gem "rspec-expectations"
-  gem "rspec-mocks"
-  gem "rspec-rails", "~> 2.4"
-  gem "cucumber"
-  gem "cucumber-rails"
-  gem "capybara"
-  gem "database_cleaner"
+  gem 'rspec', '2.6.0'
+  gem 'rspec-core', '2.6.4'
+  gem 'rspec-expectations', '2.6.0'
+  gem 'rspec-mocks', '2.6.0'
+  gem 'rspec-rails', '2.6.1'
+  gem 'cucumber', '0.10.6'
+  gem 'cucumber-rails', '0.5.2'
+  gem 'capybara', '1.0.0.rc1'
+  gem 'database_cleaner', '0.6.7'
+  gem 'escape_utils' #in order to solve the problem with rack when params are sent as UTF-8 strings
 end
 
 # Use unicorn as the web server
