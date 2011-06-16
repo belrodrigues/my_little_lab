@@ -1,6 +1,6 @@
 class LandingPageController < ApplicationController
   def index
     @person = Person.new
-    render :template => "people/new"
+    render :action => "people/new"
   end
 end
