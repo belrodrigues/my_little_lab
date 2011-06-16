@@ -1,6 +1,6 @@
-Feature: Entrepreneur wants to test a product
+Feature: Lean Startup wants to validate a product idea
   In order to validate a product idea
-  As an entrepreneur
+  As a lean startup
   I want to test my idea to possible users
 
   @wip
