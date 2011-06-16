@@ -7,5 +7,5 @@ Feature: Person likes the product
   Scenario: Add email successfully
     Given I am on the home page
     And I fill in "Email" with "vanessa@santanna.com"
-    When I press "Create User"
+    When I press "register"
     Then I should see "Thank you!"
