@@ -9,7 +9,6 @@ gem 'mysql2', '0.2.7'
 
 
 group :test, :development do
-  gem 'rcov'
   gem 'rspec', '2.6.0'
   gem 'rspec-core', '2.6.4'
   gem 'rspec-expectations', '2.6.0'
