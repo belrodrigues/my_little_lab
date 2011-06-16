@@ -1,5 +1,12 @@
 MyLittleLab::Application.routes.draw do
-  resources :people
+  #resources :people
+
+  match 'people/new' => "people#new", :as => 'new_person'
+  match 'people' => "people#create", :via => :post
+
+  match 'products/new' => "products#new", :as => 'new_product'
+  match 'products' => "products#create", :via => :post
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -55,5 +62,5 @@ MyLittleLab::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  match ':controller(/:action(/:id(.:format)))'
+  #match ':controller(/:action(/:id(.:format)))'
 end
