@@ -6,6 +6,7 @@ MyLittleLab::Application.routes.draw do
 
   match 'products/new' => "products#new", :as => 'new_product'
   match 'products' => "products#create", :via => :post
+  match ':alias' => "products#show", :as => "product", :via => :get
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

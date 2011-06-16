@@ -13,3 +13,13 @@ Feature: Lean Startup wants to validate a product idea
     When I press "test my idea"
     Then I should see "Ok! Your idea is ready to be tested!"
 
+  @wip
+  Scenario: Show project page successfully
+    Given a product exists with name: "My Little Lab", description: "An app to test your products ideas.", alias: "mylittlelab", email: "bel@tripapalooza.net"
+    When I am on mylittlelab's product page
+    Then I should see "My Little Lab"
+
+
+  @wip
+  Scenario: Show e-mail from people interested in the product
+

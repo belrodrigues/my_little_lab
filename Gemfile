@@ -20,6 +20,7 @@ group :test, :development do
   gem 'capybara', '1.0.0.rc1'
   gem 'database_cleaner', '0.6.7'
   gem 'escape_utils' #in order to solve the problem with rack when params are sent as UTF-8 strings
+  gem 'pickle' #cucumber steps that creates models easily from factory-girl or machinist factories/blueprints
 end
 
 # Use unicorn as the web server
