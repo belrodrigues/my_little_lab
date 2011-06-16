@@ -1,8 +1,8 @@
 MyLittleLab::Application.routes.draw do
 
 
-  match 'people/new' => "people#new", :as => 'new_person'
-  match 'people' => "people#create", :via => :post
+  #match 'people/new' => "people#new", :as => 'new_person'
+  #match 'people' => "people#create", :via => :post
 
   match 'products/new' => "products#new", :as => 'new_product'
   match 'products' => "products#create", :via => :post
