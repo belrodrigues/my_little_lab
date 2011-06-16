@@ -5,7 +5,7 @@ Feature: Person likes the product
 
   @wip
   Scenario: Add email successfully
-    Given I am at the landing page
+    Given I am on the home page
     And I fill in "Email" with "vanessa@santanna.com"
-    And I press "Create User"
-    Then I see the message "Thank you!"
+    When I press "Create User"
+    Then I should see "Thank you!"
