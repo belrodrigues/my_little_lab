@@ -1,5 +1,5 @@
 MyLittleLab::Application.routes.draw do
-  #resources :people
+
 
   match 'people/new' => "people#new", :as => 'new_person'
   match 'people' => "people#create", :via => :post
