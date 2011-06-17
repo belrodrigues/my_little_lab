@@ -1,5 +1,9 @@
 class EarlyAccessesController < ApplicationController
 
+  def index
+    redirect_to :action => :new, :alias => 'mylittlelab'
+  end
+
   def new
     @early_access         = EarlyAccess.new
     @early_access.product = Product.find_by_alias(params[:alias])

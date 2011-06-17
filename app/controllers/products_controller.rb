@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-   def new
+  def new
     @product = Product.new
   end
 
