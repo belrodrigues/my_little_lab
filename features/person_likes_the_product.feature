@@ -5,7 +5,8 @@ Feature: Person likes the product
 
   @wip
   Scenario: Add email successfully
-    Given I am on the home page
+    Given a product exists with name: "My Little Lab", description: "An app to test your products ideas.", alias: "mylittlelab", email: "bel@tripapalooza.net"
+    And I am on mylittlelab's product page
     And I fill in "Email" with "vanessa@santanna.com"
     When I press "register"
-    Then I should see "Thank you!"
+    Then I should see "Thank you for having interest in our product. We will get in touch as soon as soon as possible."

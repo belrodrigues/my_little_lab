@@ -1,7 +1,7 @@
 class EarlyAccess < ActiveRecord::Base
   attr_accessor :email, :alias
 
-  #validates_uniqueness_of :person, :scope => :product_id
+  validates_uniqueness_of :person_id, :scope => :product_id
 
   belongs_to :person
   belongs_to :product

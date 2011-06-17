@@ -1,11 +1,6 @@
 class ProductsController < ApplicationController
 
-  def show
-    @product = Product.find_by_alias(params[:alias])
-    render :text => "OK"
-  end
-
-  def new
+   def new
     @product = Product.new
   end
 

@@ -1,0 +1,11 @@
+<%= flash[:error] %>
+<%= form_for(@early_access) do |f| %>
+    <%= f.hidden_field :alias, :value => params[:alias] %>
+    <div class="field">
+        <%= f.label :email %><br />
+        <%= f.text_field :email %>
+    </div>
+    <div class="actions">
+        <%= f.submit "register" %>
+    </div>
+<% end %>

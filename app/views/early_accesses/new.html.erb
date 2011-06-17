@@ -1,0 +1,12 @@
+<h1><%= @early_access.product.name %></h1>
+
+<p><b>Description:</b></p>
+<%= @early_access.product.description %>
+
+
+<% if flash[:notice].nil?  %>
+<p><b>If you want to get early access to the product. Let us know!</b></p>
+<%= render :partial => "form" %>
+<% else %>
+<p><b><%= flash[:notice]%></b></p>
+<% end %>

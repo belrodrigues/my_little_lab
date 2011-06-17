@@ -1,12 +1,10 @@
 MyLittleLab::Application.routes.draw do
 
-
-  #match 'people/new' => "people#new", :as => 'new_person'
-  #match 'people' => "people#create", :via => :post
-
   match 'products/new' => "products#new", :as => 'new_product'
   match 'products' => "products#create", :via => :post
-  match ':alias' => "products#show", :as => "product", :via => :get
+
+  match ':alias' => "early_accesses#new", :as => "product", :via => :get
+  match 'early_accesses' => "early_accesses#create", :via => :post
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

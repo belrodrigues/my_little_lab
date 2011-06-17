@@ -22,4 +22,3 @@ Feature: Lean Startup wants to validate a product idea
 
   @wip
   Scenario: Show e-mail from people interested in the product
-
